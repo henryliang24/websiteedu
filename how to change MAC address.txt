@@ -1,0 +1,22 @@
+{4d36e972-e325-11ce-bfc1-08002be10318}
+
+Driver Key--->{4d36e972-e325-11ce-bfc1-08002be10318}\0002
+
+devmgmt.msc---> Device Manager
+
+ncpa.cpl --->network connections
+
+RC45--> Realtek PCle GBE Family Controller--->{4d36e972-e325-11ce-bfc1-08002be10318}\0002
+
+regedit-->registry editor
+
+regedt32--->another way to open registry editor
+
+steps to change MAC address
+1.Viewing Driver Key
+devmgmt.msc->Ethernet NIC->RightClick>Properties>Details Tab>Driver key(a paw hmr example)
+2.ctrl.R>regedit(or)regedt32>HKLM\SYSTEM\CurrentControlSet\Control\Class\4d36e972-e325-11ce-bfc1-08002be10318}\0002
+Right click on white space>New>String value
+Name the Network Address 
+double click the name
+value htal hmr pay chin dae MAC value go pay
